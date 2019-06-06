@@ -1,0 +1,21 @@
+.invalid-input{
+    border-color: red;
+}
+.invalid-input::placeholder{
+    color:red;
+}
+.note-square-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.note-square{
+    width: 300px;
+    height: 170px;
+    background-color: yellow;
+
+    overflow: no-display;
+    margin: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
